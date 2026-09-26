@@ -21,7 +21,7 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = IDENTITY)
-    private int id;
+    private Long id;
 
     @CreatedDate
     private LocalDateTime createDate;
