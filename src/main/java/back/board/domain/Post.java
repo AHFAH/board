@@ -42,8 +42,8 @@ public class Post extends BaseIdAndTime {
                 getModifyDate(),
                 author.getId(),
                 author.getNickname(),
-                title,
-                content
+                getTitle(),
+                getContent()
         );
     }
 
